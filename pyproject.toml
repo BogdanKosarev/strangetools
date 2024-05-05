@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "strangetools"
+version = "1.0.0"
+authors = [
+  { name="Bogdan Kosarev", email="kosarev.bogdan@gmail.com" },
+]
+description = "A small package with different specific(strange) tools."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/pypa/sampleproject"
